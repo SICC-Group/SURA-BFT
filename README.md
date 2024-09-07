@@ -1,4 +1,4 @@
-# TEP-BFT
+# SURA-BFT
 This is the official code for the paper entitled "SURA-BFT: Efficient Byzantine Fault Tolerance Consensus using SGX-USIG and Blockchain-based Remote Attestation".
 
 The Chinese version of README.md can be found at [README_zh.md](https://github.com/SICC-Group/SURA-BFT/blob/main/README_zh.md)
