@@ -1,8 +1,6 @@
 # SURA-BFT
 This is the official code for SURA-BFT.
 
-The Chinese version of README.md can be found at [README_zh.md](https://github.com/SICC-Group/SURA-BFT/blob/main/README_zh.md)
-
 The operating system used is Ubuntu 22.04.
 # Compile and install
 The dependencies that need to be installed and the process of compiling the official source code can be referred to the FISCO official compilation documentation [5. Node source code compilation - FISCO BCOS 3.0 v3.6.0 documentation](https://fisco-bcos-doc.readthedocs.io/zh-cn/latest/docs/tutorial/compile_binary.html)
@@ -13,8 +11,8 @@ Clone our optimized code:
 # It is recommended to create another compilation directory, separate from the official source code
 mkdir -p ~/TEPBFT && cd ~/TEPBFT
 
-# Clone our optimized code
-https://github.com/SICC-Group/TEP-BFT.gitt
+# Clone this optimized code
+clone code.git
 
 cd FISCO-BCOS
 ```
