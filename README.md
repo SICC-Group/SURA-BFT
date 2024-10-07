@@ -9,7 +9,7 @@ The dependencies that need to be installed and the process of compiling the offi
 Clone our optimized code:
 ```bash
 # It is recommended to create another compilation directory, separate from the official source code
-mkdir -p ~/TEPBFT && cd ~/TEPBFT
+mkdir -p ~/SURA-BFT && cd ~/SURA-BFT
 
 # Clone this optimized code
 clone code.git
@@ -18,7 +18,7 @@ cd FISCO-BCOS
 ```
 ## Compile
 ```bash
-cd ~/TEPBFT/FISCO-BCOS
+cd ~/SURA-BFT/FISCO-BCOS
 
 # Create compilation directory
 mkdir -p build && cd build
@@ -83,7 +83,7 @@ sudo apt-get install -y lib32stdc++6 lib32z1
 ```
 ## Build a network
 ```bash
-cd TEPBFT
+cd SURA-BFT
 curl -#LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/FISCO-BCOS/FISCO-BCOS/releases/v3.2.0/build_chain.sh
 
 # This line of code uses the build script to set up multiple nodes, and the ip address is changed according to the private ip address of your machine
